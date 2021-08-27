@@ -8,23 +8,22 @@
 </head>
 <body>
     <form>
-    <fieldset id="cliente"><legend>Identificacao do Cliente:</legend>
-    <p>Nome Completo: <input type="text" name="tNome" id="cNome" size="27" maxlength="27"/></p>
-    <p>CPF/CNPJ:</p>
-    <p>RG:</p>
-    <p>Idade:</p>
+    <fieldset id="cliente"><legend>Identificação do Cliente:</legend>
+    <p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="27" maxlength="27" placeholder="Nome Completo"/></p>
+    <p><label for="cCpf">CPF/CNPJ:</label> <input type="number" name="tCpf" id="cCpf" size="14" maxlength="14" placeholder="Apenas números"/></p>
+    <p><label for="cRg">RG:</label> <input type="number" name="tRg" id="cRg" size="9" maxlength="9" placeholder="Digite aqui seu RG"/></p>
+    <p><label for="cIdade">Idade:</label> <input type="number" name="tIdade" id="cIdade" min="0" max="90" placeholder="Idade"/></p>
     
-    <fieldset id="Sexo"><legend>Sexo:</legend>
-    - Masculino
-    - Feminino
+    <fieldset id="genero"><legend>Gênero:</legend>
+    <input type="radio" name="tGenero" id="cMasc"/> <label for="cMasc">Masculino</label><br/> 
+    <input type="radio" name="tGenero" id="cFem"/> <label for="cFem">Feminino</label>
 </fieldset>
-    <p>Data de Nascimento:</p>
+    <p><label for="cNasc">Data de Nascimento:</label> <input type="date" name="tNasc" id="cNasc" placeholder="Data de Nascimento"/></p>
 </fieldset>
 
    <fieldset id="endereco"><legend>Endereço do cliente:</legend>
-    Logradouro:
-    Número:
-    Complemento
+    <p><label for="cRua">Logradouro:</label> <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua, Av, Trav, ..."/></p> 
+    <p><label for="cNum">Número:</label> <input type="number" name="tNum" id="cNum" min="0" max="100000" placeholder="Número da casa, apt, ..."/></p>
     Bairro:
     Cidade:
     Estado
