@@ -1,0 +1,43 @@
+/* Estilo usado para tela de cadastro banco itau */
+/* estilo para imagem do logo do banco */
+#logoItau{
+    margin-left: auto;
+    margin-right: auto;
+    width: 6rem;
+}
+
+/* vai fazendo assim man, dai quando os caras ver seu 
+codigo eles vão dar uma otima nota tudo explicado */
+#cliente{
+    text-align: justify;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: orangered;
+    border-radius: 10px;
+    background-color: #EC7000;
+}
+
+#contato{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: white;
+    border-radius: 10px;
+}
+
+#endereco{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: orangered;
+}
+
+legend{
+    background-color:whitesmoke;
+    border-color: orangered;
+    border-radius: 4px;
+}
+input{
+    background-color: #f7e6d8;;
+    border-color: #EC7000;
+    border-radius: 10px;
+    text-align: center;
+}

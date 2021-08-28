@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Formulario</title>
 </head>
 <body>
+    <div class="logo" id="logoItau">
+        <img src="/imagem/itau.svg" alt="logoItau" width="200px" height="200px">
+    </div>
+    
     <form method="POST">
         <fieldset id="cliente"><legend>Dados do Cliente</legend>
             <p><label>Nome:*</label>
@@ -24,7 +29,7 @@
             <input type="radio" name="cGeneroMasc" id="cMasc"/> <label for="cMasc">Masculino</label>
             <input type="radio" name="cGeneroFem" id="cFem"/> <label for="cFem">Feminino</label>
             </p>
-            <fieldset><legend>Contato</legend>
+            <fieldset id="contato"><legend>Contato</legend>
                 <p><label>Celular:*</label>
                     <input required="required" type="text" name="cCEL" id="cCEL" placeholder="(00) 00000-0000"/>
                     <label>E-Mail</label>
