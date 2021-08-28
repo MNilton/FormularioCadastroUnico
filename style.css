@@ -8,6 +8,8 @@
     padding: 20px;
     margin-bottom: 50px;
 }
+
+/*Alinhamento de texto abaixo do logo itau */
 .texto{
     display: flex;
     justify-content: center;
@@ -30,12 +32,24 @@
     border-color: blue;
     border-radius: 10px;
 }
+/*Inicio de estilização do botão*/
 button{
     width: 100px;
     height: 40px;
     font-size: 18px;
+    border-radius: 10px;
+    box-shadow: gray 2px 2px 1px;
 }
 .divButton{
+    display: flex;
+    justify-content: center;
+}
+/*Aqui iniciel algumas alterações no form, criei div para poder alterar lguns conteúdos */
+form{
+    width: 70%;
+    
+}
+.formularioDiv{
     display: flex;
     justify-content: center;
 }
@@ -47,10 +61,16 @@ button{
     border-radius: 10px;
     background-color: #EC7000;
 }
+
 .rodape{
     display: flex;
     justify-content: center;
-    
+}
+
+.refDireciona{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 legend{
