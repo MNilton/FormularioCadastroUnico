@@ -1,6 +1,7 @@
 /* Estilo usado para tela de cadastro banco itau */
 /* estilo para imagem do logo do banco */
-#logoItau{
+#logoItau
+{
     display: flex;
     justify-content: center;
     height: 160px;
@@ -10,14 +11,16 @@
 }
 
 /*Alinhamento de texto abaixo do logo itau */
-.texto{
+.texto
+{
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
 /* Estilo usado no campo onde são inseridas as informações do cliente */
-#cliente{
+#cliente
+{
     margin-bottom: 20px;
     text-align: justify;
     font-size: 16px;
@@ -27,13 +30,17 @@
     background-color: #EC7000;
 }
 
-#contato{
+#contato
+{
+    background-color: #EC7000;
     text-align: justify;
     border-color: blue;
     border-radius: 10px;
 }
+
 /*Inicio de estilização do botão*/
-button{
+button
+{
     width: 100px;
     height: 40px;
     font-size: 18px;
@@ -43,21 +50,28 @@ button{
     color:yellow;
     box-shadow: gray 2px 2px 1px;
 }
-.divButton{
-    display: flex;
-    justify-content: center;
-}
-/*Aqui iniciel algumas alterações no form, criei div para poder alterar lguns conteúdos */
-form{
-    width: 50%;
-    
-}
-.formularioDiv{
+
+.divButton
+{
     display: flex;
     justify-content: center;
 }
 
-#endereco{
+/*Aqui iniciel algumas alterações no form, criei div para poder alterar lguns conteúdos */
+form
+{
+    width: 50%;
+    
+}
+
+.formularioDiv
+{
+    display: flex;
+    justify-content: center;
+}
+
+#endereco
+{
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-color: blue;
@@ -66,26 +80,43 @@ form{
     background-color: #EC7000;
 }
 
-.rodape{
+.rodape
+{
     display: flex;
     justify-content: center;
 }
 
-.refDireciona{
+.refDireciona
+{
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-legend{
+legend
+{
     border-radius: 4px;
     background-color: #87CEFA;
 }
 
-input{
+input
+{
     background-color: white;
 }
 
-#cNome{
-    width:300px;
+/* Mostrar bordas verdes quando válido */
+input[data-state="valid"] 
+{
+  border-color: hsl(120, 76%, 50%);
+}
+
+/* Mostrar bordas vermelhas quando preenchidas, mas inválido */
+input[data-state="invalid"] 
+{
+  border-color: hsl(64, 83%, 57%);
+}
+
+#cNome
+{
+    width: 300px;
 }
