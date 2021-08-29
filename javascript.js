@@ -1,6 +1,7 @@
-
-function validacao () {
-    if(document.forms.cCpf.value=="") {
-        alert("Por favor, preencha o campo CPF.");
+function validarForm() {
+    let x = document.forms["validaForm"]["cNome"].value;
+    if (x == "") {
+        alert("Campo NOME não preenchido!");
+        return false;
     }
 }
